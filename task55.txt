@@ -1,0 +1,20 @@
+Procedure InsertionSort (A,N)
+VAR
+
+VAR1:a
+VAR2:n
+BEGIN
+{
+for i <= 1 to n-1
+{
+value <= a[i]
+hole<= i 
+while(hole>0 & & a[hole -1]>value)
+{
+    a[hole] <= a[hole-1]
+    hole<= hole-1
+}
+a[hole] <= value
+ }
+ } 
+ END  
